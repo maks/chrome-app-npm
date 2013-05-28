@@ -1,0 +1,28 @@
+{
+  "name": "npm",
+  "description": "NPM as a Chrome Packaged App",
+  "version": "0.1",
+  "manifest_version": 2,
+  "minimum_chrome_version": "25.0",
+  "offline_enabled": true,
+  "app": {
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  },
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite",
+    "storage",
+    "unlimitedStorage",
+    "http://*/",
+    {"socket": [
+      "tcp-connect:*:*"
+    ]},
+    {
+        "fileSystem": ["write"]
+    }
+  ]
+}

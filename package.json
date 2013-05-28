@@ -1,0 +1,18 @@
+{
+  "name": "chrome-app-npm",
+  "version": "0.0.0",
+  "description": "npm in a chrome packaged app",
+  "main": "index.js",
+  "dependencies": {
+      "chrome-app-module-loader" : ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maks/chrome-app-npm.git"
+  },
+  "author": "Maksim Lin <maks@manichord.com>",
+  "license": "BSD"
+}
